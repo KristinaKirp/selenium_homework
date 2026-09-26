@@ -20,3 +20,5 @@ try:
     browser.find_element(By.ID, "robotsRule").click()
     browser.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
 
+finally:
+    browser.quit()
